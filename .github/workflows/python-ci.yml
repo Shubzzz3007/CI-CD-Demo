@@ -27,4 +27,5 @@ jobs:
 
     - name: Run basic test
       run: |
-        echo "✅ Build and install successful!"
+        source venv/bin/activate
+        pytest
